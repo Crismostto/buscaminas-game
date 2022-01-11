@@ -1,0 +1,57 @@
+.celda {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    text-align: center;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+table{
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+
+.titulo{
+    background: rgb(36,0,0);
+    background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(255,246,61,1) 42%, rgba(170,111,63,1) 100%, rgba(255,21,0,0.896796218487395) 100%);
+    padding-bottom: 1em;
+    padding-top: 20px;
+    border: 1px;
+}
+
+.contenedor-incial{
+    display: flexbox;
+    flex-direction: column;
+}
+
+.hr{
+    background:linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(255,246,61,1) 42%, rgba(170,111,63,1) 100%, rgba(255,21,0,0.896796218487395) 100%);
+}
+
+.hr-top{
+    padding-top: 0;
+    
+}
+
+.barras-gral{
+  justify-content: center;
+}
+
+h5{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
